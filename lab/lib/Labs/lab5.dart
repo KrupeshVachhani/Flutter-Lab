@@ -24,24 +24,12 @@ class _ScrollEffectScreenState extends State<ScrollEffectScreen> {
     Colors.orange,
     Colors.yellow,
     Colors.green,
-    Colors.blue,
-    Colors.indigo,
-    Colors.purple,
-    Colors.pink,
-    Colors.brown,
-    Colors.grey,
   ];
   final List<String> _screenNames = [
     'Screen 1',
     'Screen 2',
     'Screen 3',
     'Screen 4',
-    'Screen 5',
-    'Screen 6',
-    'Screen 7',
-    'Screen 8',
-    'Screen 9',
-    'Screen 10',
   ];
   int _currentIndex = 0;
 

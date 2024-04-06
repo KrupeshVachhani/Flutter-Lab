@@ -4,6 +4,7 @@ import 'package:lab/Labs/lab1.dart';
 import 'package:lab/Labs/lab10.dart';
 import 'package:lab/Labs/lab11.dart';
 import 'package:lab/Labs/lab12.dart';
+import 'package:lab/Labs/lab13.dart';
 import 'package:lab/Labs/lab2.dart';
 import 'package:lab/Labs/lab3.dart';
 import 'package:lab/Labs/lab4.dart';
@@ -78,6 +79,10 @@ class _MyHomePageState extends State<MyHomePage> {
     {
       "name": "Lab 12",
       "description": "Create an application Parsing JSON data from REST API in Flutter"
+    },
+    {
+      "name": "Lab 13",
+      "description": "Create and application using Hardware Interaction in Flutter."
     }
   ]
 }
@@ -174,6 +179,10 @@ class _MyHomePageState extends State<MyHomePage> {
       case 'Lab 12':
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => Lab12()));
+        break;
+      case 'Lab 13':
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => Lab13()));
         break;
     }
   }
